@@ -1,20 +1,14 @@
-$color-1 : #cdb4db ; //Mobile
-$color-2 : #fff1e6 ; //Tablet
-$color-3 : #52b788 ; //Laptop
-$color-4 : #bee1e6 ; //Desktop
-//This removes the default style of our browser
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
-  body{
-    font-family: sans-serif;
-    font-size: 35px;
-  }
+}
+* body {
+  font-family: sans-serif;
+  font-size: 35px;
 }
 
-.container{
+.container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -22,14 +16,10 @@ $color-4 : #bee1e6 ; //Desktop
   background-color: #fff;
 }
 
-.text{
-
-}
-
-#size{
+#size {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 35px;
-}
+}/*# sourceMappingURL=style.css.map */
