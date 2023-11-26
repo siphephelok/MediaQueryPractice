@@ -32,4 +32,12 @@ $color-4 : #bee1e6 ; //Desktop
   left: 50%;
   transform: translateX(-50%);
   font-size: 35px;
+  color: red;
+}
+
+@media (max-width: 500px){
+  // Your styles are here
+  .container{
+    background-color: $color-1;
+  }
 }
